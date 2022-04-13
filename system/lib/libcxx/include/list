@@ -287,6 +287,7 @@ template <class _Tp, class _VoidPtr> class _LIBCPP_TEMPLATE_VIS __list_const_ite
 template <class _Tp, class _VoidPtr>
 class _LIBCPP_TEMPLATE_VIS __list_iterator
 {
+public:
     typedef __list_node_pointer_traits<_Tp, _VoidPtr> _NodeTraits;
     typedef typename _NodeTraits::__link_pointer __link_pointer;
 
